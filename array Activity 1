@@ -6,10 +6,11 @@ int main (void)
     int size = 8;
     int element [size];
     int counter;
-    int sum;
+    int sum=0;
 
     for(counter = 0; counter < size; counter++)
     {
+    printf("put a Element:");
     scanf("%d",&element[counter]);
     }
     for(counter = 0; counter < size; counter++)
@@ -24,3 +25,4 @@ int main (void)
 
     return 0;
 }
+
