@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main (void)
+{
+    int size = 8;
+    int element [size];
+    int counter;
+    int sum;
+
+    for(counter = 0; counter < size; counter++)
+    {
+    scanf("%d",&element[counter]);
+    }
+    for(counter = 0; counter < size; counter++)
+    {
+    printf("Element %d is %d\n",counter,element[counter]);
+    }
+        for (counter=0; counter<8; counter++ )
+    {
+        sum = sum + counter[element];
+    }
+    printf("total of Element:%d\n",sum);
+
+    return 0;
+}
